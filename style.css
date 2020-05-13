@@ -3,17 +3,17 @@ body {
     margin: 0px;
 }
 
-.container-fluid {
+/* .container-fluid {
     background-image: url("images/background.jpg");
-}
+} */
 
-h1 {
+/* h1 {
     color: white;
 }
 
 h6 {
     color: white;
-}
+} */
 
 .row {
     min-height: 100vh;
