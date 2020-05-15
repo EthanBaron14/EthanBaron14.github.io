@@ -1,20 +1,13 @@
 body {
     padding: 0px;
     margin: 0px;
+    position: relative;
 }
 
-/* .container-fluid {
-    background-image: url("images/background.jpg");
-} */
-
-/* h1 {
-    color: white;
+.navbar {
+    margin-bottom: 0px;
 }
 
-h6 {
-    color: white;
-} */
-
-.row {
-    min-height: 100vh;
+.jumbotron {
+    height: 100vh;
 }
