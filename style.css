@@ -8,11 +8,15 @@ body {
     margin-bottom: 0px;
 }
 
-.jumbotron {
-    height: 100vh;
-    background-color: #272C40;
-}
-
 body {
     background-color: #2F2740;
+}
+
+.vertical-center {
+    min-height: 100%;
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+    background-color: #272C40;
 }
