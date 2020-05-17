@@ -35,8 +35,9 @@ body {
 
 #name {
     font-size: 1.4em;
-    }
-.nav li{
+}
+
+.nav li {
     padding-right:5px;
     font-size: 1.2em !important;
-   }
+}
