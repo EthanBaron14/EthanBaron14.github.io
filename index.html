@@ -305,8 +305,119 @@
 
         <!-- Projects -->
         <div class="container" id="projects">
-            <h1 class="display-4 text-light">Projects</h1>
+            <div class="row">
+                <div class="col">
+                    <h1 class="display-4 text-light">Projects</h1>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/onvm.png" class="card-img-top img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title">OpenNetVM</h5>
+                            <p class="card-text">Contributed to open-source networking research project. openNetVM is a high performance NFV platform based on DPDK and Docker containers. OpenNetVM provides a flexible framework for deploying network functions and interconnecting them to build service chains. </p>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#onvm">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/gwu.jpg" class="card-img-top img-fluid" >
+                        <div class="card-body">
+                            <h5 class="card-title">CSCI 2541: Database Systems and Team Projects</h5>
+                            <p class="card-text">Built a mock application, registration and advising system for a graduate computer science program from scratch using Bootstrap front-end and LAMP stack back-end. Utilized Amazon Web Services EC2 for back-end testing.</p>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#database">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/gwudsp.png" class="card-img-top img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title">Delta Sigma Pi; Xi Rho Chapter</h5>
+                            <p class="card-text">Served as VP Risk Management and VP Technology for the Xi Rho chapter of Delta Sigma Pi, a professional business fraternity. Managed technology systems and implementations for the chapter and overhauled the chapter website on Squarespace.</p>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#dsp">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="onvm" tabindex="-1" role="dialog" aria-labelledby="onvmlabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="onvmlabel">OpenNetVM</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Starting Spring 2020, I contributed to OpenNetVM, an open-sourced, high-performance NFV platform based on DPDK and Docker containers. During that summer, I worked with a research group composed of five undergraduate students and over 20 graduate students.</p>
+                    <p>During the academic year, I attended bi-weekly meetings with the other undergraduate students and the professor whose lab we worked for. Several times per week over the summer, I attended regular research meetings with professor to provide direction for research focus.</p>
+                    <p>Accordingly, I contributed to the project directly on GitHub by making changes to the codebase, attending and participating in code reviews, and reviewing pull requests created by other contributors for releases.</p>
+                    <p>The OpenNetVM project, while a research project at heart, was treated and managed like a released platform. We regularly reviewed code for releases and enforced strict style guide for release code. Additionally, we regularly collaborated over Slack, Discord, Zoom and Webex to work on complicated problems together.</p>
+                    <p>For more information about OpenNetVM, click <a class="text-primary" href="https://github.com/sdnfv/openNetVM" target="_blank">here</a>.</p>
+                    <p>The research group also maintains a cluster of Linux servers on campus. System Administration using Linux was something that I had not precisely had experience with, despite my background in Information Technology.
+                        However, I was already experienced with Linux operating systems and command-line management; this experience enabled me to better contribute to managing the cluster.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="modal fade" id="database" tabindex="-1" role="dialog" aria-labelledby="databaselabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="databaselabel">Database Systems and Team Projects</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>One of the largest projects I contributed to for one of my courses, CSCI 2541 - Database Systems and Team Project provided an interesting challenge that I had not been exposed to before: project integration.</p>
+                    <p>In this class, I worked in a group of three to build one of the modules for a graduate computer science program web platform. My group was tasked with building the application system, complete with a LAMP stack back-end and Bootstrap front-end.</p>
+                    <p>After building and styling the application processing system, my group demonstrated the functionality of the platform to instructional staff. We were then broken up into a different set of groups of three students.</p>
+                    <p>In my second group, composed of students who built different modules of the platform, we were tasked with integrating the modules to form one cohesive system that looked consistent and accessed appropriate data from the MySQL database.</p>
+                    <p>This was a unique challenge because I had not had exposure to project integration. We had to rework the database tables to integrate each of our modules such that they could all function together. We then added analytics queries, statistics, and a set of extra features.</p>
+                    <p>The class culminated in a final demo in front of the instructional staff where our integration and functionality was tested in real-time. Our platform was exposed to rigorous testing and evaluation, including edge-case and bad input testing.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="modal fade" id="dsp" tabindex="-1" role="dialog" aria-labelledby="dsplabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="dsplabel">Delta Sigma Pi; Xi Rho Chapter</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>I rushed my university's chapter of Delta Sigma Pi in Fall 2019. Since, I have been elected to executive committee positions including VP Risk Management and VP Technology. These roles exposed me to a variety of leadership opportunities and situations.</p>
+                    <p>As VP Technology, I maintained the existing technology implementations that my chapter utilized and also introduced new projects and initiatives that would either improve or introduce new technology implementations to our chapter.</p>
+                    <p>These projects included learning Tableau Public to create visualizations for my chapter's membership and representation. Examples of what I built using Tableau can be seen <a href="https://public.tableau.com/profile/ethan.baron#!/vizhome/XiRho/AlumniLocation-Dashboard" class="text-primary" target="_blank">here</a>.</p>
+                    <p>The visualizations I made using Tableau can be seen throughout our chapter's <a href="https://www.gwudsp.com" class="text-primary" target="_blank">website</a>, which was built on Squarespace. I also updated our website with new information about our chapter and our events.</p>
+                    <p>This presented another opportunity for me to practice using Domain Management systems and Email Forwarding. These were two technologies that I have extensive experience with prior to my election to the position, but it presented a unique opportunity to learn more about them.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <br />
 
         <!-- Contact -->
         <div class="container" id="contact">
