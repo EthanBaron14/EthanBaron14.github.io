@@ -27,3 +27,8 @@ body {
     height: 6vw;
     object-fit: cover;
 }
+
+.icon-center {
+    display: block;
+    text-align: center;
+}
